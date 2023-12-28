@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.MultiplicationExamPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Style="{StaticResource ExamPageStyle}">
+
+                <StackLayout>
+
+                    <Label Text=" 21 x 234 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="4924"></RadioButton>
+                    <RadioButton Content="4914" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="4910"></RadioButton>
+                    <RadioButton Content="4920"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+
+                    <Label Text="9 x 223 = " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="2017"></RadioButton>
+                    <RadioButton Content="2007" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="2000"></RadioButton>
+                    <RadioButton Content="2010"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="84 x 95 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="7900"></RadioButton>
+                    <RadioButton Content="7990"></RadioButton>
+                    <RadioButton Content="7980" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="7920"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text=" 45 x 21 = " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="945" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="940"></RadioButton>
+                    <RadioButton Content="930"></RadioButton>
+                    <RadioButton Content="935"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="25 x 342 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="8550" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="8500"></RadioButton>
+                    <RadioButton Content="8555"></RadioButton>
+                    <RadioButton Content="8530"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="54 x 32 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="1730"></RadioButton>
+                    <RadioButton Content="1720"></RadioButton>
+                    <RadioButton Content="1728" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="1738"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text=" 6 x 653 = " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="3918" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="3910"></RadioButton>
+                    <RadioButton Content="3900"></RadioButton>
+                    <RadioButton Content="3908"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="32 x 29 = " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="938"></RadioButton>
+                    <RadioButton Content="920"></RadioButton>
+                    <RadioButton Content="928" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="930"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="45 x 55 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="2475" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="2400"></RadioButton>
+                    <RadioButton Content="2470"></RadioButton>
+                    <RadioButton Content="2440"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="34 x 98, =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="3330"></RadioButton>
+                    <RadioButton Content="3332" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="3340"></RadioButton>
+                    <RadioButton Content="3333"></RadioButton>
+                </StackLayout>
+
+                <Button Text="Submit" Clicked="Button_Clicked" Style="{StaticResource SubmitButtons}"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

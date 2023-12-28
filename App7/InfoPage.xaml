@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.InfoPage">
+    <ContentPage.Content>
+        <StackLayout Padding="27"> 
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Image Aspect="AspectFit" Source="https://www.eyeofriyadh.com/includes/image.php?image=/directory/images/2022/12/1a007d23f51e4.jpg"
+           WidthRequest="125" HeightRequest="125"/>
+
+
+                <Image Aspect="AspectFit" Source="https://3.bp.blogspot.com/-O5NTj9PNKgY/W3VYPe_wk1I/AAAAAAAAAGM/sMp9872iOYcpOXY92461qL6YKQdinMu0QCEwYBhgL/s1600/method.jpg"
+WidthRequest="125" HeightRequest="125"/>
+            </StackLayout>
+
+            <Label Text=" برنامج 'أسئلة و إجابات' هو نظام اختبارات عامة، حيث يستطيع الطاب اختيار اختبار وتأديته وجمع العلامات
+كما يسمح أيضا من إضافة اختبارات وكتابة أسئلة ذات خيارات متعددة بعدد ثابت." Style="{StaticResource InfoLabel}" />
+            <Label Text=""/>
+ <Label Text=" تم برمجته من قبل فريق Methods المكون من أربع اشخاص و هم :" Style="{StaticResource InfoLabel}" />
+            <Label Text=""/>
+            <Label Text="رضا الشباعة (442212999)." Style="{StaticResource InfoLabel}" />
+<Label Text="فواز العليوي (442213011)." Style="{StaticResource InfoLabel}" />
+<Label Text="عبدالرحمن الحربي (442213093)." Style="{StaticResource InfoLabel}" />
+<Label Text="راكان قيسي (442213089)." Style="{StaticResource InfoLabel}" />
+            <Label Text=""/>
+<Label Text="هدفنا التغلب على جميع الصعاب و صنع افضل ما لدينا بتوفيق الله تعالى." Style="{StaticResource InfoLabel}" />
+
+
+
+
+            <Button Text="Login Page" Clicked="LoginPage" Style="{StaticResource SubmitButtons}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

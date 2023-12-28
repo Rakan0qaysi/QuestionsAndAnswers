@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="SectionButtons" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="CharacterSpacing" Value="4"/>
+                <Setter Property="Padding" Value="30"/>
+                <Setter Property="Margin" Value="20"/>
+                <Setter Property="BackgroundColor" Value="LightBlue"/>
+            </Style>
+            
+
+            <Style x:Key="SubmitButtons" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="CharacterSpacing" Value="2"/>
+                <Setter Property="Margin" Value="0,50,0,5"/>
+                <Setter Property="CornerRadius" Value="30"/> 
+                <Setter Property="BackgroundColor" Value="CornflowerBlue"/>
+            </Style>
+
+            <Style x:Key="ExamPageStyle" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="#9394bd"/>
+            </Style>
+
+            <Style x:Key="QuestionLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Padding" Value="0,20,0,20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="CharacterSpacing" Value=".9"/>
+            </Style>
+            <Style x:Key="InfoLabel" TargetType="Label">
+                <Setter Property="CharacterSpacing" Value="2"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

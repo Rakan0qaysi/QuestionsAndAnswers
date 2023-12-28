@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.EnglishSection">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#2f3961">
+
+            <Button Text="vocabulary Exam" Style="{StaticResource SectionButtons}" Clicked="VocabularyExamButton"/>
+            <Button Text="Grammer Exam" Style="{StaticResource SectionButtons}" Clicked="GrammerExamButton"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.LoginPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#495a70">
+            <Frame BackgroundColor="#28374a" Padding="40" CornerRadius="100" Margin="15">
+                <Label x:Name="labelRes" TextColor="Black" Text="Welcome To Our Exam System" FontSize="25" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+            </Frame>
+            <!-- Username:111 Password:111 -->
+            <StackLayout BackgroundColor="#495a70" Margin="10,20,10,20">
+                <Label Text="Username" TextColor="Black" FontSize="20" Padding="2"/>
+                <Entry x:Name="username"></Entry>
+                <Label Text="Password" TextColor="Black" FontSize="20" Padding="2"></Label>
+                <Entry x:Name="password" IsPassword="True"></Entry>
+                <Button Clicked="Button_Clicked" Text="Login" Style="{StaticResource SubmitButtons}" Margin="50"></Button>
+               
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+            <Label Text="Info" VerticalOptions="Center" HorizontalOptions="EndAndExpand" TextColor="Black" FontSize="Medium"/>
+                <Image Aspect="AspectFill" Source="https://p1.hiclipart.com/preview/879/533/123/leopaqua-r3-final-toolbar-info-icon-png-icon.jpg"
+                       WidthRequest="35" HeightRequest="35">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="InfoButton"
+                                              NumberOfTapsRequired="1">
+                        </TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                </StackLayout>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

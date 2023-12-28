@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.MathSection">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#2f3961">
+
+            <Button Text="Addition Exam" Style="{StaticResource SectionButtons}" Clicked="AdditionExamButton"/>
+            <Button Text="Subtraction Exam" Style="{StaticResource SectionButtons}" Clicked="SubtractionExamButton"/>
+            <Button Text="Multiplication Exam" Style="{StaticResource SectionButtons}" Clicked="MultiplicationExamButton"/>
+            <Button Text="Division Exam" Style="{StaticResource SectionButtons}" Clicked="DivisionExamButton"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

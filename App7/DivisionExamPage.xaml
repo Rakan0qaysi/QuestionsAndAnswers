@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.DivisionExamPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Style="{StaticResource ExamPageStyle}">
+
+                <StackLayout>
+
+                    <Label Text=" 21 ÷ 24 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="1.142"></RadioButton>
+                    <RadioButton Content="0.875" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="0.877"></RadioButton>
+                    <RadioButton Content="1.140"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+
+                    <Label Text="9 ÷ 23 = " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="2.550"></RadioButton>
+                    <RadioButton Content="0.391" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="0.390"></RadioButton>
+                    <RadioButton Content="2.555"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="84 ÷ 95 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="1.120"></RadioButton>
+                    <RadioButton Content="0.880"></RadioButton>
+                    <RadioButton Content="0.884" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="1.130"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text=" 45 ÷ 21 = " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="2.142" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="2.140"></RadioButton>
+                    <RadioButton Content="0.466"></RadioButton>
+                    <RadioButton Content="0.460"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="25 ÷ 342 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="0.073" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="0.070"></RadioButton>
+                    <RadioButton Content="13.680"></RadioButton>
+                    <RadioButton Content="13.689"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="54 ÷ 32 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="0.590"></RadioButton>
+                    <RadioButton Content="0.592"></RadioButton>
+                    <RadioButton Content="1.687" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="1.680"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text=" 63 ÷ 53 = " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="1.188" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="1.180"></RadioButton>
+                    <RadioButton Content="0.841"></RadioButton>
+                    <RadioButton Content="0.831"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="32 ÷ 29 = " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="0.900"></RadioButton>
+                    <RadioButton Content="1.100"></RadioButton>
+                    <RadioButton Content="1.103" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="0.906"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="5 ÷ 55 =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="0.090" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="0.091"></RadioButton>
+                    <RadioButton Content="0.909"></RadioButton>
+                    <RadioButton Content="11"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="768 ÷ 23, =" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="33.311"></RadioButton>
+                    <RadioButton Content="33.391" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="33.390"></RadioButton>
+                    <RadioButton Content="33.399"></RadioButton>
+                </StackLayout>
+
+                <Button Text="Submit" Clicked="Button_Clicked" Style="{StaticResource SubmitButtons}"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

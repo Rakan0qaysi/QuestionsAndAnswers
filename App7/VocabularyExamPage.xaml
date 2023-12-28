@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.VocabularyExamPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Style="{StaticResource ExamPageStyle}">
+
+                <StackLayout>
+
+                    <Label Text="Complete The Word: KeyB__rd:" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="or" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="ur"></RadioButton>
+                    <RadioButton Content="ru"></RadioButton>
+                    <RadioButton Content="ro"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+
+                    <Label Text="Complete The Word: Program__r :" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="mo"></RadioButton>
+                    <RadioButton Content="er"></RadioButton>
+                    <RadioButton Content="me" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="mu"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="The meaning of the word 'something huge':" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="Collusion"></RadioButton>
+                    <RadioButton Content="Behemoth " CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="Piety"></RadioButton>
+                    <RadioButton Content="Trivial"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="The meaning of the word 'Era': " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="low"></RadioButton>
+                    <RadioButton Content="place"></RadioButton>
+                    <RadioButton Content="choice"></RadioButton>
+                        <RadioButton Content="age" CheckedChanged="Question_Answer"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="The meaning of the word 'Decade': " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="5 years"></RadioButton>
+                    <RadioButton Content="10 years" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="1 year"></RadioButton>
+                    <RadioButton Content="1 month"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="The meaning of the word 'Display':" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="sell"></RadioButton>
+                    <RadioButton Content="make"></RadioButton>
+                    <RadioButton Content="show" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="buy"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="The meaning of the word 'Eventually' :" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="in the end" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="all of a sudden"></RadioButton>
+                    <RadioButton Content="with no problems"></RadioButton>
+                    <RadioButton Content="very quickly"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="The meaning of the word 'secure' :" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="secret"></RadioButton>
+                    <RadioButton Content="safe" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="comfortable"></RadioButton>
+                    <RadioButton Content="independent"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="The meaning of the word 'eager' :" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="clever"></RadioButton>
+                    <RadioButton Content="enthusiastic"></RadioButton>
+                    <RadioButton Content="devoted"></RadioButton>
+                    <RadioButton Content="curious" CheckedChanged="Question_Answer"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="The meaning of the word 'lethal' :" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="unlawful"></RadioButton>
+                    <RadioButton Content="sluggish"></RadioButton>
+                    <RadioButton Content="deadly" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="smooth"></RadioButton>
+                </StackLayout>
+
+                <Button Text="Submit" Clicked="Button_Clicked" Style="{StaticResource SubmitButtons}"/>
+                
+            </StackLayout>
+        </ScrollView> 
+       
+        
+    </ContentPage.Content>
+</ContentPage>

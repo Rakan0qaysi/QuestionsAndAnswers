@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.GrammerExamPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Style="{StaticResource ExamPageStyle}">
+
+                <StackLayout>
+
+                    <Label Text="Suzie and John are planning to get married and ________ a lot of children. " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="make"></RadioButton>
+                    <RadioButton Content="have" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="get"></RadioButton>
+                    <RadioButton Content="bring"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+
+                    <Label Text="The police are ________ an investigation into the robbery." Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="carrying out" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="working out"></RadioButton>
+                    <RadioButton Content="searching out"></RadioButton>
+                    <RadioButton Content="making out"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="When Sam was a small child, he ________ spend hours every day playing with stones in the garden. " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="should"></RadioButton>
+                    <RadioButton Content="would" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="used"></RadioButton>
+                    <RadioButton Content="was"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="You should read this novel — it's been ________ recommended by all the critics. " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="deeply"></RadioButton>
+                    <RadioButton Content="fully"></RadioButton>
+                    <RadioButton Content="truly"></RadioButton>
+                    <RadioButton Content="highly" CheckedChanged="Question_Answer"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="I asked _______ use Judith's mobile. " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="if I could" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="could I"></RadioButton>
+                    <RadioButton Content="whom to"></RadioButton>
+                    <RadioButton Content="you let me"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Rosemary: Why are all these flags _______ put up all over the city? Angus: It's because of our national holiday next week. " Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="not to"></RadioButton>
+                    <RadioButton Content="being" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="have been"></RadioButton>
+                    <RadioButton Content="to Have been"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Gerry: Will all of these people lose their jobs? Robert: I _______" Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="I Don’t hope"></RadioButton>
+                    <RadioButton Content="I don’t think"></RadioButton>
+                    <RadioButton Content="I hope not" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="think"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="I have a confession to make. I _______ you the truth." Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="haven't been telling" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="wasn't told"></RadioButton>
+                    <RadioButton Content="told not"></RadioButton>
+                    <RadioButton Content="couldn't be telling"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="You'd better take these papers with you ________ you need them for your meeting." Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="unless"></RadioButton>
+                    <RadioButton Content="otherwise"></RadioButton>
+                    <RadioButton Content="as far as"></RadioButton>
+                    <RadioButton Content="in case" CheckedChanged="Question_Answer"></RadioButton>
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="I ________ like getting up early." Style="{StaticResource QuestionLabel}"/>
+                    <RadioButton Content="don’t" CheckedChanged="Question_Answer"></RadioButton>
+                    <RadioButton Content="am not "></RadioButton>
+                    <RadioButton Content="not"></RadioButton>
+                    <RadioButton Content="doesn’t"></RadioButton>
+                </StackLayout>
+                <Button Text="Submit" Clicked="Button_Clicked" Style="{StaticResource SubmitButtons}"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
